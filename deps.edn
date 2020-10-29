@@ -520,7 +520,7 @@
   ;; clojure -M:test/runner
   :test/runner
   {:extra-paths ["test"]
-   :extra-deps  {lambdaisland/kaocha {:mvn/version "1.0.672"}}
+   :extra-deps  {lambdaisland/kaocha {:mvn/version "1.0.700"}}
    :main-opts   ["-m" "kaocha.runner"]}
 
   ;; clojure -M:env/test:test/kaocha
@@ -533,7 +533,7 @@
   ;; clojure -M:test/kaocha-cljs
   :test/kaocha-cljs
   {:extra-paths ["test"]
-   :extra-deps  {lambdaisland/kaocha      {:mvn/version "1.0.672"}
+   :extra-deps  {lambdaisland/kaocha      {:mvn/version "1.0.700"}
                  lambdaisland/kaocha-cljs {:mvn/version "1.0.71"}}
    :main-opts   ["-m" "kaocha.runner"]}
 
@@ -541,15 +541,15 @@
   ;; clojure -M:test/kaocha-cucumber
   :test/kaocha-cucumber
   {:extra-paths ["test"]
-   :extra-deps  {lambdaisland/kaocha          {:mvn/version "1.0.672"}
-                 lambdaisland/kaocha-cucumber {:mvn/version "0.0.53"}}
+   :extra-deps  {lambdaisland/kaocha          {:mvn/version "1.0.700"}
+                 lambdaisland/kaocha-cucumber {:mvn/version "0.0-53"}}
    :main-opts   ["-m" "kaocha.runner"]}
 
   ;; https://github.com/lambdaisland/kaocha-junit-xml
   ;; clojure -M:test/kaocha-junit-xml
   :test/kaocha-junit-xml
   {:extra-paths ["test"]
-   :extra-deps  {lambdaisland/kaocha           {:mvn/version "1.0.672"}
+   :extra-deps  {lambdaisland/kaocha           {:mvn/version "1.0.700"}
                  lambdaisland/kaocha-junit-xml {:mvn/version "0.0.76"}}
    :main-opts   ["-m" "kaocha.runner"]}
 
